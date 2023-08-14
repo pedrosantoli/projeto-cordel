@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 15px;
+    
+
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-size: 50px;
+    font-variant: small-caps;
+    padding-top: 50px;
+    
+}
+
+header p {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header a {
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+header span {
+    font-weight: bolder;
+}
+
+header span:hover {
+    text-decoration: underline;
+}
+
+main p {
+    line-height: 2em;
+    padding-left: 20px;
+    
+}
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    line-height: 2em;
+}
+
+
+#imagem1 {
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.585);
+    min-width: fit-content;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#imagem2 {
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    min-width: fit-content;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.interior {
+    background-color: rgba(0, 0, 0, 0.591);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+
+}
+
+p {
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.3em;
+    padding-top: 15px
+
+}
+
+footer {
+    background-color: black;
+    margin: auto;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: auto;
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
